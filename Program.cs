@@ -1,13 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading;
 
 namespace PokeTypes
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            TypeInfo meh = new TypeInfo();
-            meh.Instance();
+            TypeInfo typeInfo = new TypeInfo();
+            typeInfo.pppopopo();
         }
     }
 }
